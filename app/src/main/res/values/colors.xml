@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary palette -->
+    <color name="mer_blue">#5063EE</color>
+    <color name="mer_black">#000</color>
+    <color name="mer_grey">#f4f4f4</color>
+    <!-- Secondary palette -->
+    <color name="mer_red">#D32F2F</color>
+    <color name="mer_orange">#ED8D68</color>
+    <!-- Neutrals -->
+    <color name="mer_darker_grey">#525252</color>
+    <color name="mer_dark_grey">#8D8D8D</color>
+    <color name="mer_light_grey">#C6C6C6</color>
+    <color name="mer_lighter_grey">#E0E0E0</color>
+    <color name="mer_white">#fff</color>
+    <!-- Button states -->
+    <color name="mer_darker_blue">#2735A1</color>
+    <color name="mer_darker_orange">#EC7446</color>
+
+</resources>

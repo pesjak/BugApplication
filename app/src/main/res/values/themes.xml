@@ -1,0 +1,35 @@
+<resources>
+    <!-- Used only for transparent LinkActivity -->
+    <style name="Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme" parent="Base.Theme.StatusNavigationBar" />
+
+    <style name="Theme.PrimaryStatusBar">
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Base.Theme.StatusNavigationBar">
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Base.Theme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:fontFamily">@font/inter_font_family</item>
+        <item name="fontFamily">@font/inter_font_family</item>
+
+        <item name="colorPrimary">@color/mer_blue</item>
+        <item name="colorPrimaryVariant">@color/mer_darker_blue</item>
+        <item name="colorSecondary">@color/mer_orange</item>
+        <item name="colorSecondaryVariant">@color/mer_darker_orange</item>
+
+    </style>
+
+</resources>
